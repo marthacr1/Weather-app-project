@@ -1,13 +1,12 @@
 # ⛅ Skyveil — Weather Forecast App
 
-A clean, real-time weather forecast web app built with **Python + Flask** and the **OpenWeatherMap API**.
+A real time weather forecast web app built with **Python + Flask** and the **OpenWeatherMap API**.
 
 ## Features
 
-- 🌡️ Current temperature, feels-like, humidity, wind, visibility & pressure
-- 📅 5-day daily forecast with icons
-- 🎨 Responsive, dark-themed UI
-- ⚡ Fast — single API key, two endpoint calls
+- Current temperature and a feelslike, humidity, wind, visibility & pressure
+- 5 day daily forecast with icons and responsive, dark themed UI
+- single API key, two endpoint calls
 
 ## Setup
 
