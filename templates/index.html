@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Forecast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <main class="container">
+    <header>
+      <h1 class="logo">⛅ Skyveil</h1>
+      <p class="tagline">Real-time weather at your fingertips</p>
+    </header>
+
+    <div class="search-bar">
+      <input id="cityInput" type="text" placeholder="Enter a city name…" autocomplete="off" />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="error-msg" class="error-msg hidden"></div>
+
+    <section id="current-weather" class="current-card hidden">
+      <div class="current-top">
+        <div>
+          <h2 id="city-name"></h2>
+          <p id="weather-desc"></p>
+        </div>
+        <img id="weather-icon" src="" alt="weather icon" />
+      </div>
+      <div class="current-temp" id="current-temp"></div>
+      <div class="current-stats">
+        <div class="stat"><span class="stat-label">Feels like</span><span id="feels-like"></span></div>
+        <div class="stat"><span class="stat-label">Humidity</span><span id="humidity"></span></div>
+        <div class="stat"><span class="stat-label">Wind</span><span id="wind"></span></div>
+        <div class="stat"><span class="stat-label">Visibility</span><span id="visibility"></span></div>
+        <div class="stat"><span class="stat-label">Pressure</span><span id="pressure"></span></div>
+      </div>
+    </section>
+
+    <section id="forecast-section" class="hidden">
+      <h3 class="section-title">5-Day Forecast</h3>
+      <div id="forecast-cards" class="forecast-grid"></div>
+    </section>
+  </main>
+
+  <script src="/static/js/main.js"></script>
+</body>
+</html>
