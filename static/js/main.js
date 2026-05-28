@@ -89,3 +89,4 @@ cityInput.addEventListener("keydown", (e) => {
     if (city) fetchWeather(city);
   }
 });
+
