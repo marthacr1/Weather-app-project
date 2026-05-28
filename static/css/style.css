@@ -151,3 +151,4 @@ header { text-align: center; margin-bottom: 48px; }
 
 /* loading spinner on button */
 .search-bar button.loading { opacity: 0.6; pointer-events: none; }
+
