@@ -1,4 +1,4 @@
-# ⛅ Skyveil — Weather Forecast App
+# A Weather Forecast App
 
 A real time weather forecast web app built with **Python + Flask** and the **OpenWeatherMap API**.
 
